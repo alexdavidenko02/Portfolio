@@ -51,8 +51,8 @@ window.addEventListener('scroll', function() {
   });
 //-----------------------------------------------------------------
 // Переведення відсотків в skills
-const counters = document.querySelectorAll('.skills__ratings-counter'),
-      lines = document.querySelectorAll('.skills__ratings-line span');
+const counters = document.querySelectorAll('.skills__rating-counter'),
+      lines = document.querySelectorAll('.skills__rating-line span');
 
 counters.forEach( (item, i) => {
     lines[i].style.width = item.innerHTML;
